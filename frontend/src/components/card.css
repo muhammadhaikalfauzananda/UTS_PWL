@@ -1,0 +1,36 @@
+.custom-box {
+    width: 480px;
+    height: 200px;
+}
+
+.box-modal{
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  width: 750px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  z-index: 100; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.box-modal-tambah {
+    position: fixed;
+  top: 15%;
+  left: 50%;
+  width: 750px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  z-index: 100; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* position: fixed;
+    top: 25%;
+    left: 50%;
+    width: 700px;
+    max-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    overflow-x: hidden;  */
+  }
